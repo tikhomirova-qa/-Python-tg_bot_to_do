@@ -1,7 +1,7 @@
 from telebot import TeleBot, types
 import random
 
-bot = TeleBot(token='5752636054:AAFtqWJekbDsj4PNUkKTZ8FLp6pEqqYRZWM', parse_mode='html') # создание бота
+bot = TeleBot(token='вставь_свой_токен', parse_mode='html') # создание бота
 
 book = ['Эдвард Деминг "О качествах и процессах"','Гленфорд Майерс "О тестировании"','Ли Коупленд "О технологиях тест-дизайна"','Рекс Блэк "О тест-менеджменте"']
 video = ['https://www.youtube.com/watch?v=8eH3k4BxV6k','https://www.youtube.com/watch?v=XmAlTpcdNeA','https://www.youtube.com/watch?v=cFW2MfR-a88','https://www.youtube.com/watch?v=PHwEikZezUY','https://www.youtube.com/watch?v=FkhWIgqtmZ8','https://www.youtube.com/watch?v=tNmXasA2wpg&t=1s','https://www.youtube.com/watch?v=_Z62E46bDmY']
